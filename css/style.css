@@ -250,5 +250,70 @@ footer span {
   margin-top: 20px;
 }
 
-@media screen and (max-width: 1024px) {
+/* MQ tablet */
+
+@media screen and (max-width: 768px) {
+  .main-container-idx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .photoCut,
+  .photoCut-2 {
+    max-width: 200px;
+  }
+
+  .text-idx {
+    max-width: 150px;
+    font-size: 0.9rem;
+  }
+
+  /* Products styles */
+
+  .products-img-polo {
+    display: none;
+  }
+
+  .products-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .products-img {
+    max-width: 400px;
+  }
+
+  .text-products-tittles,
+  .text-products-prices,
+  .text-products-prices1 {
+    font-size: 0.8rem;
+  }
+}
+
+/* MQ phone */
+
+@media screen and (max-width: 600px) {
+  .photoCut,
+  .photoCut-2 {
+    max-width: 150px;
+  }
+
+  .text-idx {
+    max-width: 120px;
+    font-size: 0.6rem;
+  }
+
+  /* Products styles */
+
+  .products-img {
+    max-width: 200px;
+  }
+
+  .text-products-tittles,
+  .text-products-prices,
+  .text-products-prices1 {
+    font-size: 0.6rem;
+  }
 }
